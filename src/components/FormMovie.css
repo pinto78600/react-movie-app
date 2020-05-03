@@ -1,0 +1,31 @@
+.FormMovie {
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .FormMovie h1 {
+    text-align: center;
+  }
+  
+  .FormMovie .form-movie {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+  }
+  
+  .FormMovie .form-movie label {
+    display: inline-block;
+    width: 75px;
+    margin-right: 30px;
+    text-align: center;
+  }
+  
+  .FormMovie .form-movie input:not([type="submit"]) {
+    flex-grow: 1;
+  }
+  .FormMovie textarea {
+      width: 300px;
+      height: 50px;
+      
+  }
